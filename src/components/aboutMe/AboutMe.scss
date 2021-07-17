@@ -1,0 +1,10 @@
+.aboutMe {
+    display:flex;
+    flex-direction:column;
+    row-gap: 24px;
+    text-align:justify;
+    p {
+        line-height: 1.6;
+    }
+
+}

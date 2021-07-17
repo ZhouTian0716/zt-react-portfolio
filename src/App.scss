@@ -1,9 +1,11 @@
 .app{
-    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    
+    color:white;
+    background-color: rgb(12, 49, 73);
 
-    .sections{
-        width:100%;
-        height:calc(100vh - 150px);
-        background-color: green;
-    }
+
+    
 }

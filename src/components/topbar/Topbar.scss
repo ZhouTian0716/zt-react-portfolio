@@ -15,4 +15,27 @@
         color: white;
         font-weight:bolder
     }
+
+    .menu{
+        display:flex;
+        flex-direction:row;
+        column-gap: 24px;
+        
+    }
+
+    .nav-item{
+        font-size : 24px;
+        color: white;
+        font-weight:bold;
+    }
+
+    .active{
+        color: green;
+        border-bottom: 3px solid green;
+    }
+
+    .nav-item:hover{
+        cursor: pointer;
+        color: green;
+    }
 }

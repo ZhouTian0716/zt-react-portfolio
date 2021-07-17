@@ -1,19 +1,25 @@
 import React, { useState } from 'react';
 import Topbar from "../topbar/Topbar.jsx";
+import AboutMe from "../aboutMe/AboutMe.jsx";
 import Contact from "../contact/Contact.jsx";
 import Portfolio from "../portfolio/Portfolio.jsx";
-
+import Resume from "../resume/Resume.jsx";
+import "./SectionContainer.scss"
 
 export default function SectionContainer() {
-  const [currentPage, setCurrentPage] = useState('Contact');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
+    if (currentPage === 'AboutMe') {
+      return <AboutMe />;
+    }
     if (currentPage === 'Contact') {
       return <Contact />;
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -21,7 +27,10 @@ export default function SectionContainer() {
   return (
     <div>
       <Topbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className="sectionContainer">
+        {renderPage()}
+      </div>
+      
     </div>
   );
 }
