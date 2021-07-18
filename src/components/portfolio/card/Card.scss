@@ -1,0 +1,13 @@
+.cards {
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    column-gap: 36px;
+}
+
+.card {
+    height:300px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}

@@ -4,13 +4,35 @@
     
 
     h1{
-        font-size:36px
+        font-size:30px
+    }
+
+    h2{
+        font-size:24px
+    }
+
+    h3{
+        font-size:18px
     }
     
-    img {
+    .myIcon {
         height:100px;
         width:100px;
         border-radius:50px
+    }
+
+    button{
+        padding:5px 8px;
+        font-size:18px;
+        font-weight:bold;
+        border-radius:3px;
+        transition:0.3s
+    }
+    button:hover{
+        cursor: pointer;
+        color:white;
+        background:none;
+        border:2px solid white;
     }
 
 }
