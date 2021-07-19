@@ -1,13 +1,13 @@
 .cards {
+    padding-top: 36px;
     display:flex;
     flex-wrap: wrap;
+    justify-items: center;
     row-gap: 36px;
     column-gap: 36px;
 }
 
 .card {
-    height:300px;
-    width: 500px;
-    background-repeat: no-repeat;
-    background-size:contain;
+    display:flex;
+    flex-direction: column;
 }

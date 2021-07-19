@@ -1,10 +1,11 @@
+import myCV from './RESUME.pdf';
 import "./Resume.scss"
 
 export default function resume() {
     return (
         <div className="resume">
             <h1>Resume</h1>
-            <button>Download</button>
+            <button><a href={myCV} target="_blank" rel="noreferrer">My CV</a></button>
             <h2>Front-end Proficiencies</h2>
             <ul>
                 <li>HTML</li>

@@ -1,21 +1,15 @@
-import myIcon from './img/1.jpg';
+
 import "./Card.scss"
 
-
-
-export default function card({card}) {
-
+export default function card({ id, title, deployUrl, repoUrl }) {
+  
 
     return (
-        <div className="card" style={{backgroundImage:'url('+ myIcon +')'}}>
 
-
-        
-            <h3>{card.title}</h3>
-            
-           
-            <h6>{card.deployUrl}</h6>
-            <h6>{card.img}</h6>
+        <div className="card">
+            <button><a href={deployUrl} target="_blank" rel="noreferrer">{title}</a></button>
+            <img src={require(`./img/${id}.jpg`).default} height={300} width={400} alt={title}/>
+            <button><a href={repoUrl} target="_blank" rel="noreferrer">Repo</a></button>
         </div>
     )
 }

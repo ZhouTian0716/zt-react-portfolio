@@ -7,7 +7,7 @@ import Resume from "../resume/Resume.jsx";
 import "./SectionContainer.scss"
 
 export default function SectionContainer() {
-  const [currentPage, setCurrentPage] = useState('AboutMe');
+  const [currentPage, setCurrentPage] = useState('Portfolio');
 
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
