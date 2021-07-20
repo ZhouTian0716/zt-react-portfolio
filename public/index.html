@@ -6,6 +6,7 @@
     <meta name="description" content="Web site created using create-react-app"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <style>
       *{
         font-family: 'Roboto', sans-serif;
@@ -18,4 +19,18 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+  <!-- <script src='script.js'></script> -->
+  <script>
+    $(document).ready(()=>{
+    
+    // toggle menu/navbar script
+    $('.menu-btn').click(function(){
+        console.log('hello');
+        $('.topbar .menu').toggleClass('active');
+        $('.menu-btn i').toggleClass('active');
+    });
+
+    
+})
+  </script>
 </html>

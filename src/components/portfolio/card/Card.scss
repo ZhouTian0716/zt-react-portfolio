@@ -10,4 +10,11 @@
 .card {
     display:flex;
     flex-direction: column;
+    transition:0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 25px red;
 }

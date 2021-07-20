@@ -2,10 +2,11 @@
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    
+    height:100vh;
     color:white;
-    background-color: rgb(12, 49, 73);
-
-
-    
 }
+
+body{
+    background-color: rgb(12, 49, 73);
+}
+
