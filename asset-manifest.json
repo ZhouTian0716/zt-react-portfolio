@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zt-react-portfolio/static/css/main.230987cb.chunk.css",
+    "main.css": "/zt-react-portfolio/static/css/main.0d3ebcde.chunk.css",
     "main.js": "/zt-react-portfolio/static/js/main.f21c98aa.chunk.js",
     "main.js.map": "/zt-react-portfolio/static/js/main.f21c98aa.chunk.js.map",
     "runtime-main.js": "/zt-react-portfolio/static/js/runtime-main.e05aa407.js",
@@ -8,7 +8,7 @@
     "static/js/2.20144d26.chunk.js": "/zt-react-portfolio/static/js/2.20144d26.chunk.js",
     "static/js/2.20144d26.chunk.js.map": "/zt-react-portfolio/static/js/2.20144d26.chunk.js.map",
     "index.html": "/zt-react-portfolio/index.html",
-    "static/css/main.230987cb.chunk.css.map": "/zt-react-portfolio/static/css/main.230987cb.chunk.css.map",
+    "static/css/main.0d3ebcde.chunk.css.map": "/zt-react-portfolio/static/css/main.0d3ebcde.chunk.css.map",
     "static/js/2.20144d26.chunk.js.LICENSE.txt": "/zt-react-portfolio/static/js/2.20144d26.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/zt-react-portfolio/static/media/1.dd8bd8bd.jpg",
     "static/media/2.jpg": "/zt-react-portfolio/static/media/2.1cf350b8.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.e05aa407.js",
     "static/js/2.20144d26.chunk.js",
-    "static/css/main.230987cb.chunk.css",
+    "static/css/main.0d3ebcde.chunk.css",
     "static/js/main.f21c98aa.chunk.js"
   ]
 }
